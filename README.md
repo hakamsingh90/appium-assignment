@@ -17,7 +17,7 @@ This appium assignment is currently based on:
 1. Clone this project by running
 
 ```sh
-git clone 
+git clone https://github.com/hakamsingh90/appium-assignment.git
 ```
 
 2. Install all dependencies
