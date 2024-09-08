@@ -1,0 +1,40 @@
+{
+  "name": "appium-assignment",
+  "version": "1.1.0",
+  "author": {
+    "name": "Hakm Singh",
+    "email": "hakamsinghdhakad@gmail.com"
+  },
+  "description": "Saucelabs app login functionality assignment",
+  "homepage": "gitreadme",
+  "repository": {
+    "type": "git",
+    "url": "git url"
+  },
+  "keywords": [
+    "WebdriverIO",
+    "appium",
+    "native app",
+    "android"
+  ],
+  "type": "module",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^9.0.8",
+    "@wdio/appium-service": "^9.0.9",
+    "@wdio/cli": "^9.0.9",
+    "@wdio/cucumber-framework": "^9.0.8",
+    "@wdio/local-runner": "^9.0.9",
+    "appium": "^2.11.3",
+    "appium-uiautomator2-driver": "^3.7.9",
+    "eslint-plugin-wdio": "^9.0.8",
+    "wdio-wait-for": "^3.0.11"
+  },
+  "scripts": {
+    "android.app.cucumbersauce": "wdio run ./wdio.conf.ts",
+    "eslint": "eslint ."
+  },
+  "dependencies": {
+    "eslint": "^8.57.0",
+    "eslint-plugin-import": "^2.30.0"
+  }
+}
